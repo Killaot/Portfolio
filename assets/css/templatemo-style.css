@@ -682,7 +682,12 @@ section.my-work .section-heading {
 .isotope-box {
     position: relative;
     width: 100%;
+    max-height: 50%;
 }
+.img-max-height {
+    max-height: 50px; /* ou une autre valeur selon vos besoins */
+     /* pour garder le ratio de l'image */
+  }
 
 .isotope-toolbar {
     text-align: center;
